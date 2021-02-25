@@ -3,6 +3,7 @@ import {ChallengesContext} from '../contexts/ChallengeContext'
 import { useContext } from 'react'
 
 export function CompletedChallenges(){
+    
     const {challengesCompleted} = useContext(ChallengesContext);
 
     return(
