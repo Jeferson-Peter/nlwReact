@@ -17,6 +17,20 @@
     --blue-dark: #4953B8;
     --blue-twitter: #2aa9E0;
 }
+
+[data-theme="dark"] {
+    --white: #333;
+    --background: #000000;
+    --gray-line: #777;
+    --text: #999;
+    --text-highlight: #b3b9ff;
+    --title: #888;
+    --red: #e83f5b;
+    --green: #49df23;
+    --blue: #5965e0;
+    --blue-dark: #4953b8;
+    --blue-twitter: #2aa9e0;
+  }
   
 @media(max-width: 1080px) {
     html {
